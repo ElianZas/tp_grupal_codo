@@ -31,7 +31,7 @@ public class oradorService {
         for(int x = 0 ; x < orador.size();x++){
             oradores.add(new orador(orador.get(x).getNombre(), orador.get(x).getApellido(), orador.get(x).getTematica(), orador.get(x).getFecha()));
         }
-        System.out.println("Se creó JSON con los sueldos de los choferes\n"+oradores);
+        System.out.println("Se creó JSON oradores\n"+oradores);
         return oradores;
     }
 }
