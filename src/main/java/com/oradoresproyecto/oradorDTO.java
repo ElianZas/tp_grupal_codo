@@ -11,7 +11,7 @@ public class oradorDTO {
 
 	private static final String BD_Conexion =  "jdbc:mysql://localhost:3306/bd_oradores";
 	private static final String Usuario_BD = "root";
-	private static final String Contrasena_BD = "Max_mysql07";
+	private static final String Contrasena_BD = "colocar-contraseña-detubase";
 
     public void saveOrador(String nombre, String apellido, String tematica, String fecha) {
         try (Connection con = DriverManager.getConnection(BD_Conexion, Usuario_BD, Contrasena_BD);
